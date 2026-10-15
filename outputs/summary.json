@@ -1,0 +1,23 @@
+{
+  "best_model_by_weighted_f1": "Random Forest",
+  "best_weighted_f1": 0.7371834545480639,
+  "best_accuracy": 0.7408,
+  "dataset_rows": 5000,
+  "features": [
+    "temperature_c",
+    "relative_humidity_pct",
+    "wind_speed_kmh",
+    "rainfall_7d_mm",
+    "drought_days",
+    "vegetation_dryness_pct",
+    "slope_deg",
+    "forest_fuel_load_pct",
+    "month"
+  ],
+  "classes": [
+    "Low",
+    "Moderate",
+    "High"
+  ],
+  "note": "Results are from synthetic educational data and are not a real-world fire forecast."
+}
